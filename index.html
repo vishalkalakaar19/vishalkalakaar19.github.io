@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal — Developer &amp; Pencil Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===== NAV ===== -->
+<header>
+  <nav>
+    <a href="index.html" class="logo">vishal<span class="dot">.</span>dev</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="dev-portfolio.html">Dev Work</a></li>
+      <li><a href="art-gallery.html">Art Gallery</a></li>
+      <li><a href="journey.html">Journey</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-cta">Let's talk</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-copy">
+      <div class="eyebrow">Web Developer · Pencil Artist</div>
+      <h1>
+        I build clean web apps
+        <span class="line2">and draw faces <span class="script">that look back.</span></span>
+      </h1>
+      <p class="lead">
+        I'm Vishal — a full-stack developer who picks up new tech fast, and a portrait
+        artist who turns photographs into graphite likenesses. Two crafts, one obsession:
+        getting the details right.
+      </p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View dev work</a>
+        <a href="art-gallery.html" class="btn btn-ghost">See sketches</a>
+      </div>
+      <div class="term-card">
+        <div class="term-dots"><span></span><span></span><span></span></div>
+        <div class="line"><span class="key">stack</span> = [<span class="str">"ASP.NET"</span>, <span class="str">"Laravel"</span>, <span class="str">"PHP"</span>, <span class="str">"Python"</span>]</div>
+        <div class="line"><span class="key">db</span> = [<span class="str">"SQL Server"</span>, <span class="str">"MySQL"</span>]</div>
+        <div class="line"><span class="key">craft</span> = <span class="str">"graphite on paper"</span></div>
+        <div class="line"><span class="key">status</span> = <span class="str">"learning something new</span><span class="cursor"></span></div>
+      </div>
+    </div>
+    <div class="hero-art" id="heroArt">
+      <img class="photo" src="images/hero.png" alt="Portrait of Vishal, arms crossed, smiling">
+      <!-- <div class="sketch-overlay">
+        <svg viewBox="0 0 500 625" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <rect class="paper" x="0" y="0" width="500" height="625"/>
+          <path d="M120 90 C 150 40, 280 30, 330 80 C 370 120, 365 170, 350 210"/>
+          <path d="M150 130 C 200 110, 280 110, 320 145"/>
+          <path d="M170 230 C 220 280, 290 285, 340 240"/>
+          <path d="M100 360 C 180 330, 320 330, 400 365"/>
+          <path d="M90 420 C 200 470, 320 470, 420 425"/>
+          <path d="M150 480 L 350 480"/>
+          <path d="M100 540 C 200 600, 320 600, 410 540"/>
+          <path d="M250 60 L 250 250" stroke-dasharray="2 6"/>
+          <path d="M200 200 C 210 220, 230 225, 245 215"/>
+          <path d="M300 200 C 310 220, 330 225, 345 215"/>
+          <path d="M230 250 C 245 270, 270 270, 285 252"/>
+          <path d="M40 380 C 70 360, 120 358, 150 380"/>
+          <path d="M350 380 C 380 360, 430 358, 460 380"/>
+          <path d="M60 200 C 80 150, 120 110, 170 95"/>
+          <path d="M330 95 C 380 115, 410 160, 425 210"/>
+        </svg>
+      </div> -->
+      <span class="frame-tag">Gurugram, India</span>
+      <span class="toggle-hint" id="toggleHint">Sketch view</span>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scroll</span><span class="stick"></span></div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-text reveal">
+      <div class="eyebrow">About</div>
+      <h2>Two disciplines, one eye for detail</h2>
+      <p>
+        I'm a software developer based in India who picks up new frameworks and languages
+        quickly — whatever the project needs, I learn it and ship with it. My hands-on
+        experience spans <span class="highlight">ASP.NET Web Forms, Laravel, PHP, Python,
+        and Web APIs</span>, backed by solid work with <span class="highlight-b">SQL Server
+        and MySQL</span> on the data side.
+      </p>
+      <p>
+        Outside the editor, I draw. Give me a photograph and I'll hand you back a graphite
+        portrait that actually looks like the person — proportions, light, the small
+        asymmetries that make a face recognizable. I post finished pieces on Instagram
+        under <span class="highlight-b">@vishal_kalakaar</span>.
+      </p>
+      <p>
+        Whether you need a working web application or a portrait that captures someone
+        the way they really look, I bring the same approach: study the reference closely,
+        then build it up carefully, layer by layer.
+      </p>
+    </div>
+    <div class="skill-grid reveal-stagger" id="skillGrid">
+      <div class="skill-card">
+        <span class="num">01</span>
+        <h3>Backend &amp; Frameworks</h3>
+        <p>Server-side apps and APIs built for real workloads.</p>
+        <div class="tags"><span>ASP.NET Web Forms</span><span>Laravel</span><span>PHP</span><span>Web API</span></div>
+      </div>
+      <div class="skill-card">
+        <span class="num">02</span>
+        <h3>Languages &amp; Logic</h3>
+        <p>Comfortable moving between languages depending on the job.</p>
+        <div class="tags"><span>Python</span><span>JavaScript</span><span>C#</span></div>
+      </div>
+      <div class="skill-card">
+        <span class="num">03</span>
+        <h3>Front End</h3>
+        <p>Interfaces that feel fast and stay readable.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+      </div>
+      <div class="skill-card">
+        <span class="num">04</span>
+        <h3>Data &amp; Tooling</h3>
+        <p>Databases and the tools I build everything in.</p>
+        <div class="tags"><span>SQL Server</span><span>MySQL</span><span>Visual Studio</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY (Code / Sketch toggle) ===== -->
+<section class="gallery-section" id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <div class="eyebrow">Selected work</div>
+        <h2 id="galleryTitle">Projects I've built</h2>
+      </div>
+      <p id="gallerySub">A mix of business web apps, internal tools, and API-driven sites — built with whatever stack fit the job best.</p>
+    </div>
+
+    <div class="mode-switch" id="modeSwitch">
+      <div class="pill"></div>
+      <button class="active" data-mode="code">Code</button>
+      <button data-mode="sketch">Sketch</button>
+    </div>
+
+    <div class="gallery-panels">
+      <!-- CODE PANEL -->
+      <div class="panel active" id="panel-code">
+        <div class="gcard">
+          <div class="thumb fill-1">Inventory Dashboard</div>
+          <div class="overlay">
+            <div class="tag">ASP.NET · SQL Server</div>
+            <h4>Inventory Management Dashboard</h4>
+            <p>Stock tracking, low-stock alerts and reporting for a retail back office.</p>
+          </div>
+        </div>
+        <div class="gcard">
+          <div class="thumb fill-2">Booking Platform</div>
+          <div class="overlay">
+            <div class="tag">Laravel · MySQL</div>
+            <h4>Appointment Booking Platform</h4>
+            <p>Multi-vendor scheduling system with email confirmations and admin panel.</p>
+          </div>
+        </div>
+        <div class="gcard">
+          <div class="thumb fill-3">REST API Service</div>
+          <div class="overlay">
+            <div class="tag">Web API · C#</div>
+            <h4>Order Processing API</h4>
+            <p>Token-secured endpoints handling order creation, status sync and webhooks.</p>
+          </div>
+        </div>
+        <div class="gcard">
+          <div class="thumb fill-4">Portfolio CMS</div>
+          <div class="overlay">
+            <div class="tag">PHP · MySQL</div>
+            <h4>Lightweight Content CMS</h4>
+            <p>Custom-built CMS for small business sites — pages, media and blog in one.</p>
+          </div>
+        </div>
+        <div class="gcard">
+          <div class="thumb fill-5">Data Automation</div>
+          <div class="overlay">
+            <div class="tag">Python</div>
+            <h4>Report Automation Script</h4>
+            <p>Pulls data from SQL Server, formats it and emails daily summary reports.</p>
+          </div>
+        </div>
+        <div class="gcard">
+          <div class="thumb fill-6">Client Portal</div>
+          <div class="overlay">
+            <div class="tag">ASP.NET Web Forms</div>
+            <h4>Internal Client Portal</h4>
+            <p>Secure login, document uploads and ticket tracking for a services company.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKETCH PANEL -->
+      <div class="panel" id="panel-sketch">
+        <div class="gcard sketch">
+          <div class="thumb sketch-fill">
+            <svg viewBox="0 0 200 200"><ellipse cx="100" cy="80" rx="55" ry="65"/><path d="M55 70 C 60 40 140 40 145 70"/><path d="M70 95 C 85 110 115 110 130 95"/><path d="M40 150 C 70 130 130 130 160 150 L160 200 L40 200 Z"/></svg>
+          </div>
+          <div class="overlay">
+            <div class="tag">Graphite · A4</div>
+            <h4>Portrait Study I</h4>
+            <p>Likeness study focused on eyes and light falloff across the face.</p>
+          </div>
+        </div>
+        <div class="gcard sketch">
+          <div class="thumb sketch-fill">
+            <svg viewBox="0 0 200 200"><circle cx="100" cy="75" r="50"/><path d="M55 65 C 70 35 130 35 145 65"/><path d="M75 90 C 90 105 110 105 125 90"/><path d="M60 150 C 80 125 120 125 140 150 L140 200 L60 200 Z"/></svg>
+          </div>
+          <div class="overlay">
+            <div class="tag">Graphite · A4</div>
+            <h4>Portrait Study II</h4>
+            <p>Soft shading technique to capture skin texture and hair flow.</p>
+          </div>
+        </div>
+        <div class="gcard sketch">
+          <div class="thumb sketch-fill">
+            <svg viewBox="0 0 200 200"><ellipse cx="100" cy="85" rx="48" ry="60"/><path d="M60 75 C 75 50 125 50 140 75"/><path d="M78 100 C 92 112 108 112 122 100"/><path d="M50 160 C 75 135 125 135 150 160 L150 200 L50 200 Z"/></svg>
+          </div>
+          <div class="overlay">
+            <div class="tag">Graphite · Custom size</div>
+            <h4>Commissioned Portrait</h4>
+            <p>Custom likeness commissioned as a gift, matched from a single reference photo.</p>
+          </div>
+        </div>
+        <div class="gcard sketch">
+          <div class="thumb sketch-fill">
+            <svg viewBox="0 0 200 200"><ellipse cx="100" cy="80" rx="52" ry="62"/><path d="M58 68 C 72 42 128 42 142 68"/><path d="M76 95 C 90 108 110 108 124 95"/><path d="M45 155 C 72 128 128 128 155 155 L155 200 L45 200 Z"/></svg>
+          </div>
+          <div class="overlay">
+            <div class="tag">Graphite · A4</div>
+            <h4>Expression Study</h4>
+            <p>Practice piece exploring smile lines and subtle facial asymmetry.</p>
+          </div>
+        </div>
+        <div class="gcard sketch">
+          <div class="thumb sketch-fill">
+            <svg viewBox="0 0 200 200"><circle cx="100" cy="78" r="52"/><path d="M52 68 C 68 38 132 38 148 68"/><path d="M70 98 C 88 112 112 112 130 98"/><path d="M48 155 C 75 130 125 130 152 155 L152 200 L48 200 Z"/></svg>
+          </div>
+          <div class="overlay">
+            <div class="tag">Graphite · A3</div>
+            <h4>Detailed Hair Study</h4>
+            <p>Larger format piece focused on rendering wavy hair texture realistically.</p>
+          </div>
+        </div>
+        <div class="gcard sketch">
+          <div class="thumb sketch-fill">
+            <svg viewBox="0 0 200 200"><ellipse cx="100" cy="82" rx="50" ry="63"/><path d="M55 70 C 70 42 130 42 145 70"/><path d="M75 98 C 90 110 110 110 125 98"/><path d="M48 158 C 74 132 126 132 152 158 L152 200 L48 200 Z"/></svg>
+          </div>
+          <div class="overlay">
+            <div class="tag">Graphite · A4</div>
+            <h4>Quick Likeness Sketch</h4>
+            <p>Faster 2-3 hour sketch session showing the underlying construction lines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ig-cta reveal">
+      <a href="art-gallery.html">
+        See the full art gallery →
+      </a>
+      <span>Or follow new portrait studies on Instagram @vishal_kalakaar</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="pstep reveal">
+      <span class="pnum">i</span>
+      <h4>Understand the brief</h4>
+      <p>For a build, that means scoping features and data. For a portrait, it means studying the reference photo's light and proportions.</p>
+    </div>
+    <div class="pstep reveal">
+      <span class="pnum">ii</span>
+      <h4>Build the structure</h4>
+      <p>Database schema and core logic first for apps; rough proportion lines and composition first for a sketch.</p>
+    </div>
+    <div class="pstep reveal">
+      <span class="pnum">iii</span>
+      <h4>Refine the details</h4>
+      <p>UI polish, edge cases and testing on one side; shading, texture and likeness corrections on the other.</p>
+    </div>
+    <div class="pstep reveal">
+      <span class="pnum">iv</span>
+      <h4>Deliver</h4>
+      <p>A working, deployed application — or a finished portrait, photographed and shared with you.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-info reveal">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Have a project or a face in mind?</h2>
+      <p>Tell me what you're building or send a clear reference photo for a portrait. I'll get back to you with timeline and details.</p>
+      <ul class="clist">
+        <li>
+          <span class="icn">@</span>
+          <div><span class="label">Email</span><a href="mailto:vishal@example.com">vishal@example.com</a></div>
+        </li>
+        <li>
+          <span class="icn">◎</span>
+          <div><span class="label">Instagram (sketches)</span><a href="https://www.instagram.com/vishal_kalakaar" target="_blank" rel="noopener">@vishal_kalakaar</a></div>
+        </li>
+        <li>
+          <span class="icn">⌘</span>
+          <div><span class="label">Based in</span><a href="#" onclick="return false;">Gurugram, India</a></div>
+        </li>
+      </ul>
+    </div>
+    <div class="form-card reveal">
+      <form id="contactForm">
+        <div class="two-col">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@email.com">
+          </div>
+        </div>
+        <div class="field">
+          <label for="type">What's this about</label>
+          <select id="type" name="type">
+            <option>Web development project</option>
+            <option>Pencil portrait commission</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell me a bit about what you need..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send message</button>
+        <p class="form-note" id="formNote">Thanks — your message is ready to send. (Connect this form to your email service to go live.)</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <p>© <span id="year"></span> Vishal — <span class="fmark">built &amp; sketched by hand</span></p>
+    <div class="fsocial">
+      <a href="resume.html">Resume</a>
+      <a href="https://www.instagram.com/vishal_kalakaar" target="_blank" rel="noopener">Instagram</a>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  // Hero sketch/photo toggle
+  const heroArt = document.getElementById('heroArt');
+  const toggleHint = document.getElementById('toggleHint');
+  let sketchOn = false;
+  function setSketch(on){
+    sketchOn = on;
+    heroArt.classList.toggle('sketch-active', on);
+    toggleHint.textContent = on ? 'Photo view' : 'Sketch view';
+  }
+  toggleHint.addEventListener('click', () => setSketch(!sketchOn));
+  heroArt.addEventListener('mouseenter', () => setSketch(true));
+  heroArt.addEventListener('mouseleave', () => setSketch(false));
+
+  // Gallery mode switch
+  const modeSwitch = document.getElementById('modeSwitch');
+  const panelCode = document.getElementById('panel-code');
+  const panelSketch = document.getElementById('panel-sketch');
+  const galleryTitle = document.getElementById('galleryTitle');
+  const gallerySub = document.getElementById('gallerySub');
+  modeSwitch.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeSwitch.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const mode = btn.dataset.mode;
+      modeSwitch.classList.toggle('sketch', mode === 'sketch');
+      if(mode === 'sketch'){
+        panelCode.classList.remove('active');
+        panelSketch.classList.add('active');
+        galleryTitle.textContent = 'Pencil portraits';
+        gallerySub.textContent = "Graphite studies and commissioned likenesses. Full gallery lives on the Art Gallery page and Instagram @vishal_kalakaar.";
+      } else {
+        panelSketch.classList.remove('active');
+        panelCode.classList.add('active');
+        galleryTitle.textContent = "Projects I've built";
+        gallerySub.textContent = "A mix of business web apps, internal tools, and API-driven sites — built with whatever stack fit the job best.";
+      }
+    });
+  });
+
+  // Contact form (front-end only)
+  const form = document.getElementById('contactForm');
+  const formNote = document.getElementById('formNote');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    formNote.classList.add('show');
+    form.querySelector('.submit-btn').textContent = 'Message ready ✓';
+    setTimeout(() => { form.querySelector('.submit-btn').textContent = 'Send message'; }, 2400);
+  });
+</script>
+
+</body>
+</html>

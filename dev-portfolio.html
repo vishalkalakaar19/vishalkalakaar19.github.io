@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Development Portfolio — Vishal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===== NAV ===== -->
+<header>
+  <nav>
+    <a href="index.html" class="logo">vishal<span class="dot">.</span>dev</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="dev-portfolio.html" class="current">Dev Work</a></li>
+      <li><a href="art-gallery.html">Art Gallery</a></li>
+      <li><a href="journey.html">Journey</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-cta">Let's talk</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Development portfolio</div>
+    <h1>Applications I've built, end to end</h1>
+    <p class="lead">
+      From a full jewelry-store management system to financial and client-management
+      tools, these are projects where I owned the database design, the business logic,
+      and the interface.
+    </p>
+  </div>
+</section>
+
+<!-- ===== FEATURED PROJECT ===== -->
+<section class="alt-bg">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <div class="eyebrow">Featured project</div>
+        <h2>RAMU JEWELLERS Management System</h2>
+      </div>
+      <p>A complete desktop solution covering inventory, billing, customer records and reporting for a jewelry retail business.</p>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-visual">
+        <div class="shot wide">Dashboard — stock overview &amp; daily summary</div>
+        <div class="shot">Invoice — billing screen</div>
+        <div class="shot">Reports — RDLC report preview</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tag">Windows Forms · C# · SQL Server · RDLC</div>
+        <h3>RAMU JEWELLERS Management System</h3>
+        <p class="desc">
+          Jewelry store management software developed using Windows Forms, C#, SQL Server,
+          and RDLC reporting. Built to replace manual ledger-based billing with a single
+          desktop application covering the store's day-to-day operations.
+        </p>
+
+        <div class="project-sub">Features</div>
+        <ul class="project-list">
+          <li>Inventory management — stock by item, weight, purity and category</li>
+          <li>Billing — fast invoice generation with making charges and tax</li>
+          <li>Customer management — purchase history and contact records</li>
+          <li>Reports — daily sales, stock and customer reports via RDLC</li>
+        </ul>
+
+        <div class="project-stack">
+          <span>C#</span><span>SQL Server</span><span>RDLC</span><span>Windows Forms</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OTHER PROJECTS ===== -->
+<section class="alt-bg-rev">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <div class="eyebrow">Other projects</div>
+        <h2>Business &amp; client-facing applications</h2>
+      </div>
+      <p>A selection of other applications built across finance, trading, client management and the web.</p>
+    </div>
+
+    <div class="opcard-grid reveal-stagger">
+      <div class="opcard">
+        <div class="opvisual"><span>Portfolio summary</span><span>Holdings table</span><span>Returns chart</span></div>
+        <div class="opbody">
+          <h4>Financial Application</h4>
+          <p class="desc">An internal application for tracking client holdings, valuations and periodic returns, with exportable summary reports.</p>
+          <div class="meta-row"><span>ASP.NET</span><span>SQL Server</span><span>C#</span></div>
+          <div class="challenge">
+            <strong>Challenge solved</strong>
+            Reworked the report queries with indexed views and stored procedures to bring large valuation reports down to sub-second load times.
+          </div>
+        </div>
+      </div>
+
+      <div class="opcard">
+        <div class="opvisual"><span>Order entry</span><span>Trade ledger</span><span>Settlement status</span></div>
+        <div class="opbody">
+          <h4>Bond Trading Module</h4>
+          <p class="desc">A module for recording bond trades, tracking settlement status and maintaining an auditable trade ledger for the back office.</p>
+          <div class="meta-row"><span>ASP.NET MVC</span><span>C#</span><span>SQL Server</span></div>
+          <div class="challenge">
+            <strong>Challenge solved</strong>
+            Designed a status-driven workflow (booked → confirmed → settled) with stored procedures enforcing valid state transitions at the database level.
+          </div>
+        </div>
+      </div>
+
+      <div class="opcard">
+        <div class="opvisual"><span>Client list</span><span>Profile view</span><span>Activity log</span></div>
+        <div class="opbody">
+          <h4>Client Management System</h4>
+          <p class="desc">A CRM-style tool for storing client profiles, communication history and document records, used by a small services team.</p>
+          <div class="meta-row"><span>ASP.NET Web Forms</span><span>SQL Server</span><span>Web API</span></div>
+          <div class="challenge">
+            <strong>Challenge solved</strong>
+            Added a Web API layer on top of the existing Web Forms app so a separate mobile tool could read client data without touching the core app.
+          </div>
+        </div>
+      </div>
+
+      <div class="opcard">
+        <div class="opvisual"><span>Allocation view</span><span>Performance</span><span>Statement export</span></div>
+        <div class="opbody">
+          <h4>Portfolio Management System</h4>
+          <p class="desc">A system for managing investment portfolios — asset allocation views, performance tracking and printable client statements.</p>
+          <div class="meta-row"><span>ASP.NET</span><span>SQL Server</span><span>RDLC</span></div>
+          <div class="challenge">
+            <strong>Challenge solved</strong>
+            Built RDLC statement templates that merge data from multiple stored procedures into a single, print-ready client statement.
+          </div>
+        </div>
+      </div>
+
+      <div class="opcard">
+        <div class="opvisual"><span>Catalog</span><span>Cart &amp; checkout</span><span>Admin panel</span></div>
+        <div class="opbody">
+          <h4>E-commerce Website</h4>
+          <p class="desc">A small e-commerce site with product catalog, cart, checkout flow and an admin panel for managing products and orders.</p>
+          <div class="meta-row"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>JavaScript</span></div>
+          <div class="challenge">
+            <strong>Challenge solved</strong>
+            Used Laravel's queue system to move order-confirmation emails off the request cycle, keeping checkout fast even during traffic spikes.
+          </div>
+        </div>
+      </div>
+
+      <div class="opcard">
+        <div class="opvisual"><span>Endpoint list</span><span>Auth flow</span><span>Sync logs</span></div>
+        <div class="opbody">
+          <h4>Reporting &amp; Sync API</h4>
+          <p class="desc">A lightweight Web API exposing reporting data to other internal tools, with token-based authentication and request logging.</p>
+          <div class="meta-row"><span>Web API</span><span>C#</span><span>Python</span><span>SQL Server</span></div>
+          <div class="challenge">
+            <strong>Challenge solved</strong>
+            Used Python scripts for the heavier nightly data-sync jobs and exposed the results through the API, keeping the .NET layer thin.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <p>© <span id="year"></span> Vishal — <span class="fmark">built &amp; sketched by hand</span></p>
+    <div class="fsocial">
+      <a href="resume.html">Resume</a>
+      <a href="https://www.instagram.com/vishal_kalakaar" target="_blank" rel="noopener">Instagram</a>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
